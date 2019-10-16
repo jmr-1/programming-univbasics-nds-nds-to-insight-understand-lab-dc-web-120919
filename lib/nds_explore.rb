@@ -11,7 +11,7 @@ end
 def print_first_directors_movie_titles
   
   #pp directors_database[0][:movies]
-  #after finding the correct line, will look at 
+  #after finding the correct line, follow the nested AoHoAoH 
   spielberg_movies = directors_database[0][:movies]
   movie_counter = 0 
   
@@ -19,8 +19,6 @@ def print_first_directors_movie_titles
     puts directors_database[0][:movies][movie_counter][:title]
     movie_counter += 1 
   end 
-  #AoHoA 
-  
   
 end 
 
