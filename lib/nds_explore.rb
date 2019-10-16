@@ -11,7 +11,8 @@ end
 def print_first_directors_movie_titles
   binding.pry 
   
-  pp nds 
+  pp directors_database
+  
   movie_counter = 0 
   # while movie_counter<directors_database[director].length do
   #   puts "#{nds[:Spielberg][:movie]}"
