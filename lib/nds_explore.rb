@@ -16,6 +16,7 @@ def print_first_directors_movie_titles
   
   while movie_counter<spielberg_movies.length do
     puts directors_database[0][:movies][movie_counter][:title]
+    movie_counter += 1 
   end 
   # while movie_counter<directors_database[director].length do
   #   puts "#{nds[:Spielberg][:movie]}"
