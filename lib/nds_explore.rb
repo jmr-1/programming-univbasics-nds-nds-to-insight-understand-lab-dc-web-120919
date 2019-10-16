@@ -10,7 +10,7 @@ end
 
 def print_first_directors_movie_titles
   
-  pp directors_database[0][:movies]
+  #pp directors_database[0][:movies]
   spielberg_movies = directors_database[0][:movies]
   movie_counter = 0 
   
