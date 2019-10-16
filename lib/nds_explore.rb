@@ -11,6 +11,7 @@ end
 def print_first_directors_movie_titles
   
   #pp directors_database[0][:movies]
+  #after finding the correct line, will look at 
   spielberg_movies = directors_database[0][:movies]
   movie_counter = 0 
   
@@ -18,10 +19,6 @@ def print_first_directors_movie_titles
     puts directors_database[0][:movies][movie_counter][:title]
     movie_counter += 1 
   end 
-  # while movie_counter<directors_database[director].length do
-  #   puts "#{nds[:Spielberg][:movie]}"
-  #   movie_counter += 1 
-  # end 
   #AoHoA 
   
   
