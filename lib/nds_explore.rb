@@ -9,9 +9,8 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  binding.pry 
   
-  pp directors_database
+  pp directors_database[0][:movies]
   spielberg_movies = []
   
   movie_counter = 0 
@@ -19,7 +18,7 @@ def print_first_directors_movie_titles
   #   puts "#{nds[:Spielberg][:movie]}"
   #   movie_counter += 1 
   # end 
-  
+  #AoHoA 
   
   
 end 
